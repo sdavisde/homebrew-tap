@@ -4,12 +4,12 @@ class Wl < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/sdavisde/worklog/releases/download/v0.2.0/wl-aarch64-apple-darwin.tar.gz"
-      sha256 "58b65c84858140cce3058d5db81b88166c0a90a30c2ef7482a7a9dcbc5d35bb8"
+      url "https://github.com/sdavisde/worklog/releases/download/v0.3.0/wl-aarch64-apple-darwin.tar.gz"
+      sha256 "5c50b423d4033726fd3b948f22e460d0db8db5cdc055dd5116526388fa620383"
     end
     on_intel do
-      url "https://github.com/sdavisde/worklog/releases/download/v0.2.0/wl-x86_64-apple-darwin.tar.gz"
-      sha256 "94448b7dce675e838800d490f69ea306cddd6def89ad2ccfc1c5f3b181a0f21a"
+      url "https://github.com/sdavisde/worklog/releases/download/v0.3.0/wl-x86_64-apple-darwin.tar.gz"
+      sha256 "9ccfdf02e5b6af456d9cd102bb56c51d95ccf7468ab8fd2cceeb05b73e828845"
     end
   end
 
