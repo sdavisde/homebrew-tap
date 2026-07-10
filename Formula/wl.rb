@@ -1,19 +1,15 @@
 class Wl < Formula
   desc "Keyboard-first worklog TUI"
   homepage "https://github.com/sdavisde/worklog"
-  version "0.1.2"
-
-  # The old worklog-cli tap also installs a `wl` binary.
-  conflicts_with "worklog-cli", because: "both install a `wl` binary"
 
   on_macos do
     on_arm do
-      url "https://github.com/sdavisde/worklog/releases/download/v0.1.2/wl-aarch64-apple-darwin.tar.gz"
-      sha256 "13053df7f4722e90e7e44dd52cb52c21aa8139217c4a68d71dab2961caf6013c"
+      url "https://github.com/sdavisde/worklog/releases/download/v0.2.0/wl-aarch64-apple-darwin.tar.gz"
+      sha256 "58b65c84858140cce3058d5db81b88166c0a90a30c2ef7482a7a9dcbc5d35bb8"
     end
     on_intel do
-      url "https://github.com/sdavisde/worklog/releases/download/v0.1.2/wl-x86_64-apple-darwin.tar.gz"
-      sha256 "f002112a8620d404900b37ee08ab0469eb5555b2ce57cd2fad1812ad3e23d917"
+      url "https://github.com/sdavisde/worklog/releases/download/v0.2.0/wl-x86_64-apple-darwin.tar.gz"
+      sha256 "94448b7dce675e838800d490f69ea306cddd6def89ad2ccfc1c5f3b181a0f21a"
     end
   end
 
