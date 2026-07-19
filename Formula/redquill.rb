@@ -4,12 +4,12 @@ class Redquill < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/sdavisde/redquill/releases/download/v0.15.0/redquill-aarch64-apple-darwin.tar.gz"
-      sha256 "eb5ceb3baab86789a8b90d593b3bc167c0206b7fd046325366c4d5a3e8c12d99"
+      url "https://github.com/sdavisde/redquill/releases/download/v0.16.0/redquill-aarch64-apple-darwin.tar.gz"
+      sha256 "5c34b3faab7b47a29f7efe6fe09aa4333ea252db356d5f5845d732310f20ede3"
     end
     on_intel do
-      url "https://github.com/sdavisde/redquill/releases/download/v0.15.0/redquill-x86_64-apple-darwin.tar.gz"
-      sha256 "877c7fcb0262e4bf4f9277768f9dad6ddbefcbaec32171fccb62d2670d17d8a9"
+      url "https://github.com/sdavisde/redquill/releases/download/v0.16.0/redquill-x86_64-apple-darwin.tar.gz"
+      sha256 "4c33077d7d600ef8cf307fd35d57db46e82c434422ac4ad49a22b4d7332b17d7"
     end
   end
 
